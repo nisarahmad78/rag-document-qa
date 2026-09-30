@@ -1,0 +1,53 @@
+* { box-sizing: border-box; }
+body {
+  font-family: -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  margin: 0; background: #f6f7f9; color: #1c2333;
+}
+header {
+  background: #14213d; color: #fff; padding: 28px 20px; text-align: center;
+}
+header h1 { margin: 0 0 6px; font-size: 28px; }
+header p { margin: 0; opacity: .85; }
+main {
+  max-width: 860px; margin: 24px auto; padding: 0 16px;
+  display: grid; gap: 20px;
+}
+.card {
+  background: #fff; border: 1px solid #e2e6ee; border-radius: 10px;
+  padding: 20px; box-shadow: 0 1px 3px rgba(20,33,61,.06);
+}
+.card h2 { margin-top: 0; font-size: 18px; }
+.card h3 { font-size: 15px; margin-bottom: 8px; }
+.upload-row, .ask-row { display: flex; gap: 10px; }
+input[type="text"] { flex: 1; padding: 10px; border: 1px solid #c9d1e0; border-radius: 6px; font-size: 14px; }
+input[type="file"] { flex: 1; padding: 8px 0; font-size: 14px; }
+button {
+  background: #2f6fed; color: #fff; border: 0; border-radius: 6px;
+  padding: 10px 18px; font-size: 14px; cursor: pointer;
+}
+button:hover { background: #245bcc; }
+button:disabled { background: #9db9ee; cursor: wait; }
+.status { min-height: 18px; font-size: 13px; color: #2f6fed; }
+.muted { color: #8a93a6; }
+.doc-list { list-style: none; padding: 0; margin: 0; }
+.doc-list li {
+  display: flex; justify-content: space-between; align-items: center;
+  padding: 8px 10px; border: 1px solid #e2e6ee; border-radius: 6px; margin-bottom: 6px;
+  font-size: 14px;
+}
+.doc-list .meta { color: #8a93a6; font-size: 12px; margin-left: 8px; }
+.doc-list button { background: #e4572e; padding: 5px 10px; font-size: 12px; }
+.doc-list button:hover { background: #c7451f; }
+.chat { display: grid; gap: 12px; margin-bottom: 14px; }
+.msg { padding: 12px 14px; border-radius: 8px; font-size: 14px; line-height: 1.5; white-space: pre-wrap; }
+.msg.user { background: #eef3fe; border: 1px solid #d5e1fb; }
+.msg.bot { background: #f4f6f1; border: 1px solid #dde5d2; }
+.msg .who { font-weight: 600; display: block; margin-bottom: 4px; font-size: 12px; text-transform: uppercase; letter-spacing: .04em; color: #5b6577; }
+.sources { margin-top: 10px; }
+.sources summary { cursor: pointer; font-size: 13px; color: #2f6fed; }
+.source {
+  background: #fff; border: 1px solid #e2e6ee; border-radius: 6px;
+  padding: 8px 10px; margin-top: 6px; font-size: 13px;
+}
+.source .shead { font-weight: 600; font-size: 12px; color: #5b6577; margin-bottom: 4px; }
+footer { text-align: center; color: #8a93a6; font-size: 13px; padding: 10px 0 28px; }

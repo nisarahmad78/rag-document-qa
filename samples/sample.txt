@@ -1,0 +1,16 @@
+BrightDesk Help Center — Frequently Asked Questions
+
+About BrightDesk
+BrightDesk is a cloud-based help desk platform for small and mid-sized teams. It brings email, live chat, and social media messages into one shared inbox, so support teams can answer customers faster without switching tools.
+
+Support Channels
+Customer support is available by email at support@brightdesk.example and through live chat inside the app. Live chat hours are Monday to Friday, 9 AM to 6 PM Pakistan Time. Email tickets are answered within one business day.
+
+Plans and Pricing
+BrightDesk offers three plans. The Starter plan is free for up to 3 agents. The Growth plan costs 25 dollars per agent per month and adds automation rules and reports. The Pro plan costs 45 dollars per agent per month and adds a customer portal, SLA management, and priority support.
+
+Refunds
+Annual subscriptions can be refunded in full within the first 30 days. After 30 days, refunds are prorated for the unused whole months. Monthly subscriptions are not refundable, but they can be cancelled at any time and remain active until the end of the billing period.
+
+Data and Security
+All data is encrypted in transit and at rest. BrightDesk servers are hosted in the European Union, and daily backups are kept for 30 days. Customers can export all of their data at any time from the Settings page.

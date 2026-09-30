@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>RAG Document Q&amp;A</title>
+<link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+<header>
+  <h1>RAG Document Q&amp;A</h1>
+  <p>Upload PDF or TXT documents, then ask questions answered from their content — with sources.</p>
+</header>
+
+<main>
+  <section class="card">
+    <h2>1. Upload a document</h2>
+    <div class="upload-row">
+      <input type="file" id="fileInput" accept=".pdf,.txt,.md">
+      <button id="uploadBtn">Upload</button>
+    </div>
+    <p id="uploadStatus" class="status"></p>
+    <h3>Your documents</h3>
+    <ul id="docList" class="doc-list"><li class="muted">No documents yet.</li></ul>
+  </section>
+
+  <section class="card">
+    <h2>2. Ask a question</h2>
+    <div id="chat" class="chat"></div>
+    <div class="ask-row">
+      <input type="text" id="questionInput" placeholder="e.g. What is this document about?">
+      <button id="askBtn">Ask</button>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <p>FastAPI &middot; ChromaDB &middot; sentence-transformers &middot; OpenAI-compatible LLM</p>
+</footer>
+
+<script src="/static/app.js"></script>
+</body>
+</html>
