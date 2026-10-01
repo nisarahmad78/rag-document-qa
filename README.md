@@ -150,8 +150,9 @@ rag-doc-qa/
 
 ## Screenshots
 
-<!-- Add screenshots of the web UI here -->
-_Screenshots coming soon: upload panel, document list, and a Q&A exchange with sources expanded._
+![RAG Document Q&A UI](docs/screenshot.png)
+
+The web UI: upload a PDF or TXT document, see it in your document list (here `sample.txt`, indexed into 2 chunks), and ask questions answered from the document content with sources.
 
 ## Notes
 
